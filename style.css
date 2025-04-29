@@ -59,7 +59,7 @@ body {
     cursor: pointer;
   }
   
-  body.page-1 { background: url('../bg1.gif') no-repeat center center fixed; background-size: cover; }
+  body.page-1 { background: url('./bg1.gif') no-repeat center center fixed; background-size: cover; }
   body.page-2 { background: url('../bg2.gif') no-repeat center center fixed; background-size: cover; }
   body.page-3 { background: url('../bg3.gif') no-repeat center center fixed; background-size: cover; }
   body.page-4 { background: url('../bg4.gif') no-repeat center center fixed; background-size: cover; }
