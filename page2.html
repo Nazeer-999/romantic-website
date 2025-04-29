@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Page 2</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-2">
+  <div id="preloader">
+    <div class="loader"></div>
+  </div>
+  <div class="content" id="content">
+    <h1>Page 2</h1>
+    <p>This is a placeholder for your message and animation background.</p>
+    <button class="next-btn" onclick="location.href='page3.html'">Next Page</button>
+  </div>
+  <script>
+    window.addEventListener("load", function() {
+      setTimeout(function() {
+        document.getElementById("preloader").style.display = "none";
+        document.getElementById("content").style.display = "block";
+      }, 2000);
+    });
+  </script>
+</body>
+</html>
